@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+    padding: 15rem 5rem 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5rem;
 
     .content {
         margin-top: 4.4rem;

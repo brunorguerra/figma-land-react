@@ -3,6 +3,9 @@ import { Button } from "../../components/button";
 import imageScreenHome from "../../assets/screen-home.svg";
 import { Features } from "./sections/features";
 import { Contents } from "./sections/contents";
+import { Gallery } from "./sections/gallery";
+import { Partners } from "./sections/partners";
+import { Testimonials } from "./sections/testimonials";
 
 export const Home = () => {
     return (
@@ -26,6 +29,9 @@ export const Home = () => {
 
             <Features />
             <Contents />
+            <Gallery />
+            <Partners />
+            <Testimonials />
         </>
     );
 };

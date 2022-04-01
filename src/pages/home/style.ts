@@ -22,6 +22,7 @@ export const Container = styled.section`
         margin-top: 1.7rem;
         max-width: 64rem;
         padding: 0 5rem;
+        color: var(--second-text);
     }
     .groupButton {
         padding: 0 5rem;

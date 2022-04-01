@@ -5,4 +5,10 @@ export const TitleSection = styled.h2`
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
+    @media (max-width: 450px) {
+        font-size: 3.8rem;
+    }
+    @media (max-width: 300px) {
+        font-size: 2.8rem;
+    }
 `;
