@@ -2,8 +2,9 @@ import { Container } from "./style";
 
 interface Props {
     children: string;
+    typeStyle?: string;
 }
 
-export const Button = ({ children }: Props) => {
-    return <Container>{children}</Container>;
+export const Button = (props: Props) => {
+    return <Container typeStyle={props.typeStyle}>{props.children}</Container>;
 };

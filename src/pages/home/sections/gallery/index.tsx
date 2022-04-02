@@ -60,7 +60,7 @@ export const Gallery = () => {
                 </div>
             </div>
 
-            <Button>See more</Button>
+            <Button typeStyle="outlined">See more</Button>
         </Container>
     );
 };

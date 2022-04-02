@@ -73,8 +73,6 @@ export const Container = styled.section`
         }
     }
     Button {
-        background-color: transparent;
-        border-color: var(--white);
         margin-top: 4.4rem;
     }
 

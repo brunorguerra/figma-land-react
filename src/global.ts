@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
         --light-text: #ffffff;
 
         --blue: #4452FE;
+        --blueHover: #2d3acf;
         --darkBlue:  #112D57;
     }
     html, body, #root {

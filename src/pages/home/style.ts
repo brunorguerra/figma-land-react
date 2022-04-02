@@ -34,10 +34,6 @@ export const Container = styled.section`
         align-items: center;
         justify-content: center;
         gap: 3.5rem;
-        Button:nth-of-type(2) {
-            background-color: transparent;
-            border-color: var(--light-background);
-        }
     }
     .screenHome {
         margin-top: 5%;

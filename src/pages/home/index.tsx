@@ -19,7 +19,7 @@ export const Home = () => {
 
                 <div className="groupButton">
                     <Button>Try for Free</Button>
-                    <Button>Learn More</Button>
+                    <Button typeStyle="outlined">Learn More</Button>
                 </div>
 
                 <div className="screenHome">

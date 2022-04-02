@@ -24,7 +24,5 @@ export const Container = styled.section`
     }
     Button {
         margin-top: 5rem;
-        background-color: transparent;
-        border-color: var(--white);
     }
 `;

@@ -21,7 +21,7 @@ export const Partners = () => {
                 <img src="./ibm.svg" alt="logo IBM" />
             </div>
 
-            <Button>All Partners</Button>
+            <Button typeStyle="outlined">All Partners</Button>
         </Container>
     );
 };

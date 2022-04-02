@@ -54,16 +54,6 @@ export const Container = styled.header`
         align-items: center;
         justify-content: center;
         gap: 1rem;
-
-        Button {
-            background-color: transparent;
-            border-color: var(--light-background);
-            transition: all 0.25s ease;
-            &:hover {
-                background-color: var(--blue);
-                border-color: transparent;
-            }
-        }
         .menuMobile {
             display: none;
             padding: 1rem;

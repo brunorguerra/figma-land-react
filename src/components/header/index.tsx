@@ -34,7 +34,7 @@ export const Header = () => {
                         <a href="/contact">Contact</a>
                     </li>
                     <li>
-                        <Button>Login</Button>
+                        <Button typeStyle="outlined">Login</Button>
                     </li>
                 </ul>
             </nav>
@@ -46,7 +46,7 @@ export const Header = () => {
             ></div>
 
             <div className="groupLogin">
-                <Button>Login</Button>
+                <Button typeStyle="outlined">Login</Button>
 
                 <div className="menuMobile" onClick={toggleMenuMobile}>
                     <img src={MenuMobile} alt="Menu Mobile" />
